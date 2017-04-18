@@ -8,17 +8,17 @@ app.config(function($stateProvider,$urlRouterProvider){
 			controller: 'InicioController'
 		})
 		.state('usuarios',{
-			url:'/',
+			url:'/usuarios',
 			templateUrl: 'views/usuarios.html',
 			controller: 'UasuariosController'
 		})
 		.state('paises',{
-			url:'/',
+			url:'/paises/:id?',
 			templateUrl: 'views/paises.html',
 			controller: 'PaisController'
 		})
 		.state('paises2',{
-			url:'/',
+			url:'/paises2',
 			templateUrl: 'views/paises2.html',
 			controller: 'PaisController'
 		})

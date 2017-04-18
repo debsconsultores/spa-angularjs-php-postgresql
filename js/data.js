@@ -1,5 +1,5 @@
 ﻿app.factory("Data", ['$http',
-    function($http) { // This service connects to our REST API
+    function($http) { // Este servicio conecta con nuestro REST API
 
         var serviceBase = 'services/';
 
